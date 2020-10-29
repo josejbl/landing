@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+   margin: 0;
+   padding: 0; 
+}
+.topo{
+    width: 100%;/*Define a largura de um elemento*/
+    height: 60px;/*Define a Altura de um elemento*/
+    background-color: #F9003d;/*Altera a cor de fundo*/
+}.topo nav{
+    width: 1200px;
+    height: 60px;
+    margin:auto ;
+    display: flex;
+    justify-content: flex-end;
+}
+.topo nav a{
+    color: white;/*Altera a cor da tela*/
+    text-decoration: none;/*remove o underline*/
+    text-transform: uppercase   ;
+    font-family: 'Bebas Neue', cursive;
+}
+.topo nav ul{
+    width: 600px;
+    height: 60px;
+    list-style-type: none;/*Remover os marcadores da lista*/
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: 740px;
+    background-image: url("../images/imagem-fundo-banner.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
